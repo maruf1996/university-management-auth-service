@@ -1,0 +1,63 @@
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1686621633, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64("t3pYy7HTk32W0axXb5f0B//4eck=", 0),
+      keyId: new Long("7200493786772799500")
+    }
+  },
+  operationTime: new Timestamp({ t: 1686621633, i: 1 }),
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T02:01:05.344Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  stringValue: '"64838f02d1b47166a2a038"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '64838f02d1b47166a2a038',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOne (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2497:8)
+      at model.Query.exec (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T02:39:23.250Z'
+}
+{
+  stringValue: '"64838f02d1b47166a2a038"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '64838f02d1b47166a2a038',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOne (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2497:8)
+      at model.Query.exec (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T02:42:20.051Z'
+}

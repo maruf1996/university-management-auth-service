@@ -1,0 +1,43 @@
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.bmyfd.mongodb.net',
+  level: 'error',
+  message: 'Failed to connected database querySrv ETIMEOUT _mongodb._tcp.cluster0.bmyfd.mongodb.net',
+  stack: 'Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.bmyfd.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)',
+  label: 'PH',
+  timestamp: '2023-06-07T12:12:03.825Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.bmyfd.mongodb.net',
+  level: 'error',
+  message: 'Failed to connected database querySrv ETIMEOUT _mongodb._tcp.cluster0.bmyfd.mongodb.net',
+  stack: 'Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.bmyfd.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)',
+  label: 'PH',
+  timestamp: '2023-06-07T12:20:05.826Z'
+}
+{
+  connectionGeneration: 0,
+  level: 'error',
+  message: 'Failed to connected database connection timed out',
+  stack: 'MongoNetworkTimeoutError: connection timed out\n' +
+    '    at connectionFailureError (E:\\Level-2.0\\Class\\university-management-auth-service\\node_modules\\mongodb\\src\\cmap\\connect.ts:493:14)\n' +
+    '    at TLSSocket.<anonymous> (E:\\Level-2.0\\Class\\university-management-auth-service\\node_modules\\mongodb\\src\\cmap\\connect.ts:392:16)\n' +
+    '    at Object.onceWrapper (node:events:627:28)\n' +
+    '    at TLSSocket.emit (node:events:513:28)\n' +
+    '    at TLSSocket.Socket._onTimeout (node:net:570:8)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at processTimers (node:internal/timers:512:7)',
+  label: 'PH',
+  timestamp: '2023-06-07T12:21:24.082Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{ level: 'error', label: 'PH', timestamp: '2023-06-07T12:26:15.909Z' }
+{ level: 'error', label: 'PH', timestamp: '2023-06-07T12:27:55.506Z' }
+{ level: 'error', label: 'PH', timestamp: '2023-06-07T12:29:54.411Z' }

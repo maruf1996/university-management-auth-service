@@ -1,0 +1,93 @@
+{
+  cause: Error: connect ETIMEDOUT 34.233.241.95:27017
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+    errno: -4039,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '34.233.241.95',
+    port: 27017
+  },
+  connectionGeneration: 1,
+  level: 'error',
+  message: 'Failed to connected database connect ETIMEDOUT 34.233.241.95:27017',
+  stack: 'MongoNetworkError: connect ETIMEDOUT 34.233.241.95:27017\n' +
+    '    at connectionFailureError (E:\\Level-2.0\\Class\\university-management-auth-service\\node_modules\\mongodb\\src\\cmap\\connect.ts:491:14)\n' +
+    '    at TLSSocket.<anonymous> (E:\\Level-2.0\\Class\\university-management-auth-service\\node_modules\\mongodb\\src\\cmap\\connect.ts:392:16)\n' +
+    '    at Object.onceWrapper (node:events:628:26)\n' +
+    '    at TLSSocket.emit (node:events:513:28)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:151:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'PH',
+  timestamp: '2023-06-13T21:18:21.022Z',
+  [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+}
+{
+  stringValue: '"64838f02d1b47166a"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '64838f02d1b47166a',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOne (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2497:8)
+      at model.Query.exec (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T21:20:53.743Z'
+}
+{
+  stringValue: '"64838741bc132bea41e2c"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '64838741bc132bea41e2c',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOne (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2497:8)
+      at model.Query.exec (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T21:27:09.499Z'
+}
+{
+  stringValue: '"64838f02d1b4716"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '64838f02d1b4716',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOne (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:2497:8)
+      at model.Query.exec (E:\Level-2.0\Class\university-management-auth-service\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T21:55:24.608Z'
+}

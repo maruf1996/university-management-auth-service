@@ -1,0 +1,17 @@
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1686609269, i: 30 }),
+    signature: {
+      hash: Binary.createFromBase64("7NM6NzCnBSi16lyzEq4CZnRg5P0=", 0),
+      keyId: new Long("7200493786772799500")
+    }
+  },
+  operationTime: new Timestamp({ t: 1686609269, i: 30 }),
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-12T22:35:02.040Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
